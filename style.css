@@ -25,7 +25,11 @@ header nav a {
     background-color: #6a0dad;
     padding: 10px;
     border-radius: 6px;
+    transition: background-color 0.5s ease;
 
+}
+header nav a:hover{
+    background-color: blue;
 }
 
 .hero { 
@@ -46,8 +50,13 @@ header nav a {
     color:#fff; 
     border:none; 
     cursor:pointer; 
+    transition: background-color 0.5s ease;
 }
-        
+
+.hero button:hover{
+    background-color: blue;
+}
+
 section { 
     padding:50px 20px; 
     max-width:1000px; 
