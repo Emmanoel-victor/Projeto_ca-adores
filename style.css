@@ -2,7 +2,10 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: "Orbitron", sans-serif;
 }
+
+
 body {
     height: 100vh; 
     font-family:Arial, sans-serif; 
@@ -35,7 +38,7 @@ header nav a:hover{
 .hero { 
     text-align:center; 
     padding:100px 20px; 
-    background:url('banner.jpg')no-repeat center/cover; 
+    background:url('./Copilot_20260112_142545.png')no-repeat center/cover; 
 }
         
 .hero h1 { 
@@ -48,6 +51,7 @@ header nav a:hover{
     font-size:1.2em; 
     background:#6a0dad; 
     color:#fff; 
+    border-radius: 20px;
     border:none; 
     cursor:pointer; 
     transition: background-color 0.5s ease;
